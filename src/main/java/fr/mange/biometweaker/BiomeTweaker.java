@@ -1,5 +1,6 @@
 package fr.mange.biometweaker;
 
+import fr.mange.biometweaker.block.ModBlocks;
 import fr.mange.biometweaker.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,6 +38,8 @@ public class BiomeTweaker {
 
         ModItems.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -52,6 +55,17 @@ public class BiomeTweaker {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.BIOMEPICKER);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.PLATINUM_INGOT);
+            event.accept(ModItems.PLATINUM_NUGGET);
+            event.accept(ModItems.RAW_PLATINUM);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.PLATINUM_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.PLATINUM_ORE);
         }
     }
 
