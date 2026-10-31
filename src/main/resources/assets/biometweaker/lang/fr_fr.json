@@ -1,6 +1,8 @@
 {
   "fml.menu.mods.info.description.biometweaker": "Une simple description. \nMiam !",
 
+  "creativetab.biometweaker.biometweaker": "Biome Tweaker",
+
   "block.biometweaker.platinum_block": "Bloc de Platine",
   "block.biometweaker.platinum_ore": "Minerai de Platine",
 
@@ -8,5 +10,6 @@
   "item.biometweaker.platinum_ingot": "Lingot de platine",
   "item.biometweaker.platinum_nugget": "Pépite de platine",
   "item.biometweaker.raw_platinum": "Platine Brut"
+
 
 }

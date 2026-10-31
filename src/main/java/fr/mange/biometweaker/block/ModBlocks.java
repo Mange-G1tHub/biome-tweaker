@@ -21,12 +21,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.NETHERITE_BLOCK)));
+                    .sound(SoundType.NETHERITE_BLOCK)
+            ));
     public static final DeferredBlock<Block> PLATINUM_ORE = registerBlock("platinum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3.5f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.ANCIENT_DEBRIS)));
+                    .sound(SoundType.ANCIENT_DEBRIS)
+            ));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
