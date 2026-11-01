@@ -43,33 +43,12 @@ public class BiomeTweaker {
 
         ModBlocks.register(modEventBus);
 
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
 
-    }
-
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.BIOMEPICKER);
-        }
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PLATINUM_INGOT);
-            event.accept(ModItems.PLATINUM_NUGGET);
-            event.accept(ModItems.RAW_PLATINUM);
-        }
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.PLATINUM_BLOCK);
-        }
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.PLATINUM_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

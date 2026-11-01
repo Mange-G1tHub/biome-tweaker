@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "platinum_ingot",
+  "key": {
+    "#": {
+      "item": "biometweaker:platinum_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "biometweaker:platinum_ingot"
+  }
+}

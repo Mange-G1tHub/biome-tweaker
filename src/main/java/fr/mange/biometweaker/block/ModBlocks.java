@@ -2,9 +2,11 @@ package fr.mange.biometweaker.block;
 
 import fr.mange.biometweaker.BiomeTweaker;
 import fr.mange.biometweaker.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -24,7 +26,8 @@ public class ModBlocks {
                     .sound(SoundType.NETHERITE_BLOCK)
             ));
     public static final DeferredBlock<Block> PLATINUM_ORE = registerBlock("platinum_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new DropExperienceBlock(UniformInt.of(8, 16),
+                BlockBehaviour.Properties.of()
                     .strength(3.5f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ANCIENT_DEBRIS)
