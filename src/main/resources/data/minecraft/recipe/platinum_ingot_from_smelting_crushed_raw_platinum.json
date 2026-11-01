@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.35,
+  "group": "platinum_ingot",
+  "ingredient": {
+    "item": "biometweaker:crushed_raw_platinum"
+  },
+  "result": {
+    "id": "biometweaker:platinum_ingot"
+  }
+}

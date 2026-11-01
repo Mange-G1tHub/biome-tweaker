@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BIOMEPICKER);
                         output.accept(ModItems.PLATINUM_INGOT);
                         output.accept(ModItems.RAW_PLATINUM);
+                        output.accept(ModItems.CRUSHED_RAW_PLATINUM);
                         output.accept(ModItems.PLATINUM_NUGGET);
 
                         output.accept(ModBlocks.PLATINUM_BLOCK);
