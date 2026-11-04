@@ -17,17 +17,17 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BiomeTweaker.MODID);
 
     public static final Supplier<CreativeModeTab> BIOMETWEAKER_TAB = CREATIVE_MODE_TAB.register("biometweaker_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINUM_INGOT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.IMPURE_PLATINUM_INGOT.get()))
                     .title(Component.translatable("creativetab.biometweaker.biometweaker"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BIOMEPICKER);
-                        output.accept(ModItems.PLATINUM_INGOT);
-                        output.accept(ModItems.RAW_PLATINUM);
-                        output.accept(ModItems.CRUSHED_RAW_PLATINUM);
-                        output.accept(ModItems.PLATINUM_NUGGET);
+                        output.accept(ModItems.IMPURE_PLATINUM_INGOT);
+                        output.accept(ModItems.IMPURE_RAW_PLATINUM);
+                        output.accept(ModItems.CRUSHED_IMPURE_RAW_PLATINUM);
+                        output.accept(ModItems.IMPURE_PLATINUM_NUGGET);
 
-                        output.accept(ModBlocks.PLATINUM_BLOCK);
-                        output.accept(ModBlocks.PLATINUM_ORE);
+                        output.accept(ModBlocks.IMPURE_PLATINUM_BLOCK);
+                        output.accept(ModBlocks.IMPURE_PLATINUM_ORE);
                     })
 
 

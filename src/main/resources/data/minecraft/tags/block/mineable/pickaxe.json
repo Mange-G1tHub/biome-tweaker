@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "biometweaker:platinum_block",
-    "biometweaker:platinum_ore"
+    "biometweaker:impure_platinum_block",
+    "biometweaker:impure_platinum_ore"
   ]
 }

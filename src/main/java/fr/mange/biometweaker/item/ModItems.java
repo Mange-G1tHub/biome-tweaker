@@ -12,13 +12,13 @@ public class ModItems {
     public static final DeferredItem<Item> BIOMEPICKER = ITEMS.register("biome_picker",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+    public static final DeferredItem<Item> IMPURE_PLATINUM_INGOT = ITEMS.register("impure_platinum_ingot",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
+    public static final DeferredItem<Item> IMPURE_PLATINUM_NUGGET = ITEMS.register("impure_platinum_nugget",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
+    public static final DeferredItem<Item> IMPURE_RAW_PLATINUM = ITEMS.register("impure_raw_platinum",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CRUSHED_RAW_PLATINUM = ITEMS.register("crushed_raw_platinum",
+    public static final DeferredItem<Item> CRUSHED_IMPURE_RAW_PLATINUM = ITEMS.register("crushed_impure_raw_platinum",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

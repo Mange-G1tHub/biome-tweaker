@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "biometweaker:item/impure_raw_platinum"
+  }
+}

@@ -19,13 +19,13 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(BiomeTweaker.MODID);
 
-    public static final DeferredBlock<Block> PLATINUM_BLOCK = registerBlock("platinum_block",
+    public static final DeferredBlock<Block> IMPURE_PLATINUM_BLOCK = registerBlock("impure_platinum_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.NETHERITE_BLOCK)
             ));
-    public static final DeferredBlock<Block> PLATINUM_ORE = registerBlock("platinum_ore",
+    public static final DeferredBlock<Block> IMPURE_PLATINUM_ORE = registerBlock("impure_platinum_ore",
             () -> new DropExperienceBlock(UniformInt.of(8, 16),
                 BlockBehaviour.Properties.of()
                     .strength(3.5f)

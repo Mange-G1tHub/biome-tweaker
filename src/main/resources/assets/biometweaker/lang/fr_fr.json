@@ -3,14 +3,14 @@
 
   "creativetab.biometweaker.biometweaker": "Biome Tweaker",
 
-  "block.biometweaker.platinum_block": "Bloc de Platine",
-  "block.biometweaker.platinum_ore": "Minerai de Platine",
+  "block.biometweaker.impure_platinum_block": "Bloc de Platine impur",
+  "block.biometweaker.impure_platinum_ore": "Minerai de Platine impur",
 
   "item.biometweaker.biome_picker": "Sélecteur de biome",
-  "item.biometweaker.platinum_ingot": "Lingot de platine",
-  "item.biometweaker.platinum_nugget": "Pépite de platine",
-  "item.biometweaker.raw_platinum": "Platine Brut",
-  "item.biometweaker.crushed_raw_platinum": "Platine Brut Broyé"
+  "item.biometweaker.impure_platinum_ingot": "Lingot de platine impur",
+  "item.biometweaker.impure_platinum_nugget": "Pépite de platine impur",
+  "item.biometweaker.impure_raw_platinum": "Platine Brut impur",
+  "item.biometweaker.crushed_impure_raw_platinum": "Platine Brut concassé impur"
 
 
 }
