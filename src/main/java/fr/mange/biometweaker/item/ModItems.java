@@ -12,6 +12,15 @@ public class ModItems {
     public static final DeferredItem<Item> BIOMEPICKER = ITEMS.register("biome_picker",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> PLATINUM_BLAZE_CAKE = ITEMS.register("platinum_blaze_cake",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLATINUM_BLAZE_CAKE_BASE = ITEMS.register("platinum_blaze_cake_base",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FREEZING_CAKE = ITEMS.register("freezing_cake",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLATINUM_FREEZING_CAKE = ITEMS.register("platinum_freezing_cake",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> IMPURE_PLATINUM_INGOT = ITEMS.register("impure_platinum_ingot",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> IMPURE_PLATINUM_NUGGET = ITEMS.register("impure_platinum_nugget",

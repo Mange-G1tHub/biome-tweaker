@@ -3,13 +3,18 @@
 
   "creativetab.biometweaker.biometweaker": "Biome Tweaker",
 
-  "block.biometweaker.impure_platinum_block": "Block of Platinum",
-  "block.biometweaker.impure_platinum_ore": "Platinum Ore",
+  "block.biometweaker.impure_platinum_block": "Block of Impure Platinum",
+  "block.biometweaker.impure_platinum_ore": "Impure Platinum Ore",
 
   "item.biometweaker.biome_picker": "Biome Picker",
   "item.biometweaker.impure_platinum_ingot": "Impure Platinum Ingot",
   "item.biometweaker.impure_platinum_nugget": "Platinum Nugget",
   "item.biometweaker.impure_raw_platinum": "Raw Platinum",
-  "item.biometweaker.crushed_impure_raw_platinum": "Crushed Raw Platinum"
+  "item.biometweaker.crushed_impure_raw_platinum": "Crushed Raw Platinum",
+  "item.biometweaker.platinum_blaze_cake": "Platinum Blaze Cake",
+  "item.biometweaker.platinum_blaze_cake_base": "Platinum Blaze Cake Base",
+  "item.biometweaker.freezing_cake": "Freezing Cake",
+  "item.biometweaker.platinum_freezing_cake": "Platinum Freezing Cake"
+
 
 }

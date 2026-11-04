@@ -10,7 +10,9 @@
   "item.biometweaker.impure_platinum_ingot": "Lingot de platine impur",
   "item.biometweaker.impure_platinum_nugget": "Pépite de platine impur",
   "item.biometweaker.impure_raw_platinum": "Platine Brut impur",
-  "item.biometweaker.crushed_impure_raw_platinum": "Platine Brut concassé impur"
-
-
+  "item.biometweaker.crushed_impure_raw_platinum": "Platine Brut concassé impur",
+  "item.biometweaker.platinum_blaze_cake": "Cake pour Blaze en platine",
+  "item.biometweaker.platinum_blaze_cake_base": "Base d'un Cake pour Blaze en platine",
+  "item.biometweaker.freezing_cake": "Cake réfrigérant",
+  "item.biometweaker.platinum_freezing_cake": "Cake réfrigérant en platine"
 }

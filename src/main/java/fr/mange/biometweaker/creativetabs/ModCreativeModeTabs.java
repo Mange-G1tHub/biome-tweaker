@@ -25,6 +25,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.IMPURE_RAW_PLATINUM);
                         output.accept(ModItems.CRUSHED_IMPURE_RAW_PLATINUM);
                         output.accept(ModItems.IMPURE_PLATINUM_NUGGET);
+                        output.accept(ModItems.PLATINUM_BLAZE_CAKE);
+                        output.accept(ModItems.PLATINUM_BLAZE_CAKE_BASE);
+                        output.accept(ModItems.FREEZING_CAKE);
+                        output.accept(ModItems.PLATINUM_FREEZING_CAKE);
+
 
                         output.accept(ModBlocks.IMPURE_PLATINUM_BLOCK);
                         output.accept(ModBlocks.IMPURE_PLATINUM_ORE);
